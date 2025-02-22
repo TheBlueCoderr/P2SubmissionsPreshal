@@ -1,17 +1,8 @@
-# P2SubmissionsPreshal
-Week 1 Submission
-{A web-based auction platform with user authentication, protected routes, and auction posting. Users can register, log in, create auctions, and bid in real-time. Built with MongoDB, Express.js, React, and Node.js, styled with Bootstrap
+# React + Vite
 
-Features Implemented So Far:
-✅ User Authentication: Signup, login, and logout functionality with local storage.
-✅ Protected Routes: Dashboard and auction posting restricted to logged-in users.
-✅ Navbar: Dynamic navigation bar that updates based on authentication state.
-✅ Landing Page: Entry point with a "Get Started" button directing to login/signup.
-✅ Auction Posting: Auction creation (UI setup).
-✅ Responsive Design: Styled with Bootstrap for an intuitive UI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Upcoming Features:
-🚀 Real-time Bidding using WebSockets.
-🔒 Secure Transactions with Payment Integration.
-📊 Auction History & User Dashboard Enhancements.
-📩 Email Notifications for Auction Updates.}
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
